@@ -8,7 +8,8 @@ export default {
         price: 1.00,
         brand: 'Co-Op',
         rating: 4.00,
-        NumReviews: 5
+        NumReviews: 5,
+        countInStock:10,
     },
     {
         _id: '002',
@@ -18,7 +19,8 @@ export default {
         price: 1.29,
         brand: 'coke',
         rating: 3.9,
-        NumReviews: 8
+        NumReviews: 8,
+        countInStock:6,
     },
     {
         _id: '003',
@@ -28,7 +30,8 @@ export default {
         price: 3.00,
         brand: 'Co-Op',
         rating: 4.7,
-        NumReviews: 9
+        NumReviews: 9,
+        countInStock:6,
     },
     {
         _id: '004',
@@ -38,7 +41,8 @@ export default {
         price: 1.00,
         brand: 'DairyMilk',
         rating: 4.0,
-        NumReviews: 8
+        NumReviews: 8,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -48,7 +52,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -58,7 +63,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -68,7 +74,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -78,7 +85,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -88,7 +96,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -98,7 +107,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -108,7 +118,8 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
     {
         _id: '005',
@@ -118,129 +129,10 @@ export default {
         price: 1.49,
         brand: 'Grahams',
         rating: 4.3,
-        NumReviews: 4
+        NumReviews: 4,
+        countInStock:6,
     },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
-        _id: '005',
-        name: 'Milk',
-        category: 'chilled',
-        Image: '/Photos/products/bread.jpg',
-        price: 1.49,
-        brand: 'Grahams',
-        rating: 4.3,
-        NumReviews: 4
-    },
-    {
+       {
         _id: '005',
         name: 'Milk',
         category: 'chilled',

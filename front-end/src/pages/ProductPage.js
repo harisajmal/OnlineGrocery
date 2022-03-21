@@ -23,7 +23,7 @@ function ProductPage(props) {
 
     return <div>
         <div className='go-back-to-result'> 
-    <Link to="/" > Go Back to All products</Link>
+    <Link to='/' > Go Back to All products</Link>
 </div>
 {loading? <div>Loading...</div>:
 error? <div> {error} </div>:

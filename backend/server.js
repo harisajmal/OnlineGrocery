@@ -1,7 +1,24 @@
 import express from 'express';
 import data from './data';
+import dotenv from 'dotenv'
+import config from './config'
+import mongoose from 'mongoose';
+import userRoute from './routes/userRoute'
+
+dotenv.config();
+
+mongoose
+  .connect(process.env.MONGODB_URL)
+  .then(() => {
+    console.log('connected to db');
+  })
+  .catch((err) => {
+    console.log(err.message);
+  });
 
 const app = express();
+
+app.use("/api/users", userRoute);
 
 app.get("/api/products/:id", (req, res) => {
     const productId = req.params.id;

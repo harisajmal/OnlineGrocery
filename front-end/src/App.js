@@ -4,6 +4,8 @@ import './App.css';
 import CartPage from './pages/CartPage';
 import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
+import RegisterPage from './pages/registerPage';
+import SigninPage from './pages/signinPage';
 
 function App() {
   const openMenu = () => {
@@ -23,9 +25,9 @@ function App() {
             <Link to="/" > OnlineGrocery</Link>
         </div>
         <div className="header-links">
-            <a href="cart.html"> Cart </a>
-            <a href="login.html"> Login </a>
-            <a href="signup.html"> Create Account </a>
+            <a href="/cart/:id"> Cart </a>
+            <Link to="/signin" > Sign In</Link>
+            <Link to="/register" > Register </Link>
         </div>
     </header>
     <aside className="sidebar">
@@ -43,6 +45,8 @@ function App() {
     <main className="main">
         <div className="content">
         <Route path="/product/:id" component={ProductPage} />
+        <Route path="/signin" component={SigninPage} />
+        <Route path="/register" component={RegisterPage} />
         <Route path="/cart/:id" component={CartPage} />
         <Route path="/" exact={true} component={HomePage} />
 

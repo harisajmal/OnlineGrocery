@@ -44,7 +44,9 @@ error? <div> {error} </div>:
            Price:  <b>£{product.price}</b>
             </li>
             <li>
-Description:
+           Description:  <b>{product.Description}</b>
+            </li>
+            <li>
 <div>
  {product.description}
 </div>
